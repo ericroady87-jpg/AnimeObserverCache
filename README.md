@@ -31,7 +31,14 @@ A personalized anime tracker, so users can track or follow animes, movies or tv 
 
     Read Me Cover Art: AI generated Image, Using Google Gemini for Android -SELF-
 
-    Home Page Image: Designed by Freepik @ www.freepik.com
+    Home Page Image: Designed by Freepik @ www.freepik.com https://www.freepik.com/free-ai-image/anime-style-mythical-dragon-creature_133761329.htm#fromView=search&page=1&position=2&uuid=9665e52c-363d-47a9-9e10-72fa78097055&query=anime
+
+
+    Sign-in/up Page Image: Designed by Freepik @ www.freepik.com https://www.freepik.com/free-ai-image/anime-style-mythical-dragon-creature_133761326.htm#fromView=search&page=1&position=43&uuid=a1e5f7db-efb7-43d7-883d-6974cae477a7&query=anime+wallpaper+pc
+
+    Show Page Image: Designed by Freepik @ www.freepik.com https://www.freepik.com/free-ai-image/aesthetic-anime-character-gaming_209591174.htm#fromView=search&page=1&position=1&uuid=29da8ac3-544b-4201-8aa3-7e4c4bc25590&query=anime+tv+wallpaper+pc
+
+    List Page Image: Designed by Freepik @ www.freepik.com https://www.freepik.com/free-ai-image/mythical-dragon-beast-anime-style_133761456.htm#fromView=search&page=1&position=16&uuid=032c4f68-bdd0-46c7-9d9b-3e7a74f276da&query=anime+wallpaper+pc
 
 
 # 4. Coding Languages and Technologies Used:

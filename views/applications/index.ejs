@@ -16,7 +16,9 @@
       <ul>
         <% applications.forEach((application) => { %>
           <li>
-            <a href="/users/<%= user._id %>/applications/<%= application._id %>"><%= application.title %></a>
+            <a href="/users/<%= user._id %>/applications/<%= application._id %>"> 
+              Title: <%= application.showTitle %> 
+              Genre: <%= application.genre %> </a>
           </li>
           <% }) %>
         </ul>

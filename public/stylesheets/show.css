@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 body {
+  background-image: url('/images/AnimeGamer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font-family: "Iceberg", sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -39,6 +43,7 @@ body {
 }
 
 button {
+  font-family: 'Iceberg', sans-serif;
   padding: 8px 10px;
   background-color: #ce4866;
   color: white;
@@ -50,7 +55,7 @@ button {
 }
 
 button:hover {
-  background-color: #e84a6c;
+  background-color: #d82149;
 }
 
 .show-actions > a {
@@ -96,7 +101,7 @@ p {
 }
 
 .show-notes {
-  background-color: #f6e7e7;
+  background-color: #fffbfb;
   width: 85%;
   border-radius: 20px;
   padding: 40px 40px 20px 40px;
@@ -105,7 +110,7 @@ p {
 
 h2 {
   margin: 0 10px;
-  color: #1c2e5b;
+  color: #ff0000;
 }
 
 .show-notes > p {

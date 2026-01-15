@@ -11,10 +11,11 @@
 <body>
   <%- include('../partials/_navbar.ejs') %>
     <h1>Add a New Show</h1>
-    <div class="new-form-container">
+    <div class="new-body">
       <form action="/users/<%= user._id %>/applications" method="POST">
-        <label for="title">Show Title:</label>
-        <input type="text" name="title" id="title" />
+        
+        <label for="showTitle">Show Title:</label>
+        <input type="text" name="showTitle" id="showTitle" />
 
         <label for="genre">Genre:</label>
         <input type="text" name="genre" id="genre" />
@@ -28,9 +29,9 @@
         <label for="status">Status:</label>
         <select id="status" name="status">
           <option value="interested">Interested</option>
-          <option value="watching">watching</option>
-          <option value="watchingButNotFinished">watching But Not Finished</option>
-          <option value="finished">finished</option>
+          <option value="watching">Watching</option>
+          <option value="watchingButNotFinished">Watching But Not Finished</option>
+          <option value="finished">Finished</option>
           <option value="wouldRecommend">Would Recommend</option>
           <option value="wouldNotRecommend">Would Not Recommend</option>
         </select>
