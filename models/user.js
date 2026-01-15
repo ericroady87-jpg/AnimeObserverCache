@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const applicationSchema = mongoose.Schema({
   showTitle: { type: String, required: true },
-  genre: { type: String },
+  genre: { type: String, required: true },
   comments: { type: String },
   whereToWatch: { type: String },
   status: { type: String, enum: ['interested', 'watching', 'watchingButNotFinished', 'finished', 'wouldRecommend', 'wouldNotRecommend'], required: true }

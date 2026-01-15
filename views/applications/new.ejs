@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/stylesheets/style.css" />
-  <title>Add a New App</title>
+  <title>Add a New Show</title>
 </head>
 
 <body>
   <%- include('../partials/_navbar.ejs') %>
-    <h1>Add a New App</h1>
+    <h1>Add a New Show</h1>
     <div class="new-form-container">
       <form action="/users/<%= user._id %>/applications" method="POST">
         <label for="title">Show Title:</label>
@@ -30,6 +30,9 @@
           <option value="interested">Interested</option>
           <option value="watching">watching</option>
           <option value="watchingButNotFinished">watching But Not Finished</option>
+          <option value="finished">finished</option>
+          <option value="wouldRecommend">Would Recommend</option>
+          <option value="wouldNotRecommend">Would Not Recommend</option>
         </select>
         <button type="submit">Add Show Title</button>
       </form>
