@@ -29,7 +29,10 @@ A personalized anime tracker, so users can track or follow animes, movies or tv 
 
 # 3. Attributions:
 
-    Cover Art: AI generated Image, Using Google Gemini for Android -SELF-
+    Read Me Cover Art: AI generated Image, Using Google Gemini for Android -SELF-
+
+    Home Page Image: Designed by Freepik @ www.freepik.com
+
 
 # 4. Coding Languages and Technologies Used:
 

@@ -2,11 +2,11 @@ const { type } = require('express/lib/response');
 const mongoose = require('mongoose');
 
 const applicationSchema = mongoose.Schema({
-  company: { type: String, required: true },
-  title: { type: String, required: true },
-  notes: { type: String },
-  postingLink: { type: String },
-  status: { type: String, enum: ['interested', 'applied', 'interviewing', 'rejected', 'accepted'], required: true }
+  showTitle: { type: String, required: true },
+  genre: { type: String },
+  comments: { type: String },
+  whereToWatch: { type: String },
+  status: { type: String, enum: ['interested', 'watching', 'watchingButNotFinished', 'finished', 'wouldRecommend', 'wouldNotRecommend'], required: true }
 });
 const userSchema = mongoose.Schema({
   username: {

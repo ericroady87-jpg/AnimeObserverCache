@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
-    <title>Your Apps</title>
+    <title>Your Shows</title>
   </head>
   <body>
     <%- include('../partials/_navbar.ejs') %>
     <div class="all-apps-body">
       <div class="all-apps-header">
-        <h1>Your Apps</h1>
-        <a class="add-app-link" href="/users/<%=user._id%>/applications/new">Add an App</a>
+        <h1>Your Shows</h1>
+        <a class="add-app-link" href="/users/<%=user._id%>/applications/new">Add A Show Title</a>
       </div>
       <ul>
         <% applications.forEach((application) => { %>
           <li>
-            <a href="/users/<%= user._id %>/applications/<%= application._id %>"><%= application.title %> at <%= application.company %></a>
+            <a href="/users/<%= user._id %>/applications/<%= application._id %>"><%= application.title %></a>
           </li>
           <% }) %>
         </ul>
