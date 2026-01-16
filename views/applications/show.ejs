@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/stylesheets/show.css" />
   <title>
-    <%= application.title %>
+    <%= application.showTitle %>
   </title>
 </head>
 
@@ -23,13 +23,14 @@
               <button type="submit">Delete Show</button>
             </form>
           </div>
-          <p>Current Status: <%= application.status %>
+          <p>
+            Current Status: <%= application.status %>
           </p>
         </div>
       </div>
       <div class="show-notes-container">
         <% if (application.whereToWatch) { %>
-          <a href="<%= application.whereToWatch %>" target="_blank">View Show Status</a>
+          <h3><%= application.whereToWatch %></h3>
           <% } %>
             <% if (application.comments) { %>
               <div class="show-notes">

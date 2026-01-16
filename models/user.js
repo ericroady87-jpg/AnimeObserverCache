@@ -6,7 +6,7 @@ const applicationSchema = mongoose.Schema({
   genre: { type: String, required: true },
   comments: { type: String },
   whereToWatch: { type: String },
-  status: { type: String, enum: ['interested', 'watching', 'watchingButNotFinished', 'finished', 'wouldRecommend', 'wouldNotRecommend'], required: true }
+  status: { type: String, enum: ['Interested', 'Watching', 'Watching But Not Finished', 'Finished', 'Would Recommend', 'Would Not Recommend'], required: true }
 });
 const userSchema = mongoose.Schema({
   username: {

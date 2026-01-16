@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
     <title>Add New Show Title</title>
+    <Style>
+  body {
+    background-image: url('/images/AnimeDragon6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</Style>
 </head>
 
 <body>
@@ -28,12 +35,12 @@
 
             <label for="status">Status:</label>
             <select id="status" name="status">
-                <option value="interested" <%=application.status==='interested' ? "selected" : "" %>>Interested</option>
-                <option value="watching" <%=application.status==='watching' ? "selected" : "" %>>Watching</option>
-                <option value="watchingButNotFinished" <%=application.status==='watchingButNotFinished' ? "selected" : "" %>>Watching But Not Finished</option>
-                <option value="finished" <%=application.status==='finished' ? "selected" : "" %>>Finished</option>
-                <option value="wouldRecommend" <%=application.status==='wouldRecommend' ? "selected" : "" %>>Would Recommend</option>
-                <option value="wouldNotRecommend" <%=application.status==='wouldNotRecommend' ? "selected" : "" %>>Would Not Recommend</option>
+                <option value="Interested" <%=application.status==='Interested' ? "selected" : "" %>>Interested</option>
+                <option value="Watching" <%=application.status==='Watching' ? "selected" : "" %>>Watching</option>
+                <option value="Watching But Not Finished" <%=application.status==='Watching But Not Finished' ? "selected" : "" %>>Watching But Not Finished</option>
+                <option value="Finished" <%=application.status==='Finished' ? "selected" : "" %>>Finished</option>
+                <option value="Would Recommend" <%=application.status==='Would Recommend' ? "selected" : "" %>>Would Recommend</option>
+                <option value="Would Not Recommend" <%=application.status==='Would Not Recommend' ? "selected" : "" %>>Would Not Recommend</option>
             </select>
             <button type="submit">Update Show Title</button>
         </form>
