@@ -45,24 +45,22 @@ A personalized anime tracker, so users can track or follow animes, movies or tv 
 
 # 4. Coding Languages and Technologies Used:
 
-    A. HTML 
+    A. bcrypt
 
-    B. CSS 
+    B. dotenv
 
-    C. JAVASCRIPT 
+    C. ejs
 
-    D. ERD
+    D. express
 
-    E. Wireframe
+    E. express-session
 
-    F. MONGOOSE 
+    F. method-override
 
-    G. EXPRESS 
+    G. mongoose
 
-    H. NODE/NODEMON
-
-    I. EJS
-
+    H. morgan
+    
 # 5. Plans For the Future:
 
     A. Further Styling for buttons (location, color, ect.)
