@@ -10,7 +10,6 @@ A personalized anime tracker, so users can track or follow animes, movies or tv 
 # 2. Getting Started:
 
     Link to the app:
-    Trello Planning Link:
 
     A. Sign-Up:
         If you are a first time user click the "sign-up" link, then create a username and password.
